@@ -25,25 +25,28 @@ const LeftMenu: React.FC = () => {
   const menuData = useRef<RecordString>({})
 
 
-
-
   return <div className="left-menu">
-    {(Array.isArray(currentMenu) && currentMenu.length > 0) ?
-      <Menu
-        style={{ width: '100%' }}
-        defaultSelectedKeys={[defaultSelectedKeys]}
-        defaultOpenKeys={[defaultOpenKeys]}
-        mode="inline"
-        theme="light"
-        items={
-          []
-        }
-        onSelect={(e): void => {
-          const path = menuData.current[e.key]
-          if(path) navigate(path)
-        }}
-      /> : null
-    }
+    <Menu
+      style={{ width: '100%' }}
+      defaultSelectedKeys={[defaultSelectedKeys]}
+      defaultOpenKeys={[defaultOpenKeys]}
+      mode="inline"
+      theme="light"
+      items={
+        [
+          {
+            title: '系统配置',
+            label: '系统配置',
+            value: '222',
+            key: '222'
+          }
+        ] as any
+      }
+      onSelect={(e): void => {
+        const path = menuData.current[e.key]
+        if(path) navigate(path)
+      }}
+    />
   </div>;
 };
 
