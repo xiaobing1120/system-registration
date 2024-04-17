@@ -1,8 +1,5 @@
 # WEB 前端基于 CRA 的 TypeScript 模板
 
-**⚠️ 开发请遵循[开发规范](https://hnzycfc-collaborative.feishu.cn/wiki/wikcnBpGDh6nEkbjypNJzWunMmc?table=tblX5qXbv21vEsjk&view=vew2cwUEd3#35jldv)**
-
-**[>>>版本更新记录<<<](http://mtgitlab.hnzycfc.com/promo/template-activity/blob/master/CHANGELOG.md)**
 
 ## 使用注意
 
