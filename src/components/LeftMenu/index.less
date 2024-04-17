@@ -1,0 +1,18 @@
+
+.left-menu{
+  width: 100%;
+  ul{
+    li{
+      &[role="menuitem"]{
+        border-radius: 0 !important;
+      }
+      &:after{
+        border-right: 3px solid #3f77fe !important;
+        border-radius: 0 !important;
+      }
+      &.ant-menu-item-selected{
+        color: #3f77fe;
+      }
+    }
+  }
+}

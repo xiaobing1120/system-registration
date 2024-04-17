@@ -1,0 +1,36 @@
+# Mac
+.DS_Store
+
+# vscode
+.vscode/
+
+# JetBrains
+.idea
+
+# node.js
+/node_modules
+npm-debug.log
+
+
+
+
+# yarn
+yarn.lock
+yarn-debug.log*
+yarn-error.log*
+
+/dist
+/es
+/lib
+
+# svn
+/.svn
+
+# sonarqube
+.scannerwork
+
+# jest coverage
+/coverage
+
+# bundle-analyze-result
+bundle-analyze-result.html

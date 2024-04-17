@@ -1,0 +1,52 @@
+.global-header-dropdown {
+  text-align: center;
+  padding: 0 30px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 6px 16px -8px rgba(0,0,0,.08), 0 9px 28px 0 rgba(0,0,0,.05), 0 12px 48px 16px rgba(0,0,0,.03);
+  ul{
+    display: flex;
+    li{
+      position: relative;
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      margin-top: 30px;
+      margin-right: 8px;
+      cursor: pointer;
+      span{
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+      img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 110px;
+        height: 110px;
+        margin-top: -55px;
+        margin-left: -55px;
+        cursor: pointer;
+        transition: all .6s;
+      }
+    }
+  }
+  >span{
+    line-height: 45px;
+    padding-bottom: 5px;
+    display: block;
+  }
+}
+
+.global-header-sysSwitch{
+  padding: 0 16px;
+  >div{
+    color: #fff;
+    .anticon-retweet{
+      margin-right: 10px
+    }
+  }
+}
